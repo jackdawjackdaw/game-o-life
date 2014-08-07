@@ -1,12 +1,13 @@
 game-o-life
 ===========
 
-CCS 07.08.2014
-(chris.colemansmith@gmail.com)
+C.Coleman-Smith (chris.colemansmith@gmail.com)
 
 Exploring Conway's game of life, curses and maybe some real graphics. 
 
-## Basic Rules [1]
+## Basic Game Rules 
+
+Copied from the Wikipedia article [1], charmingly this is described as a single player game.
 
 Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or
 diagonally adjacent. At each step in time, the following transitions occur:
