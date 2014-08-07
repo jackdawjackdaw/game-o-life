@@ -35,12 +35,7 @@ int main (int argc, char* argv[]){
   gsl_rng_set(rand, get_seed_noblock());
   randomInit(g1, 0.55, rand);
 
-  /* a block */
-  /* g1[2][2] = 1; */
-  /* g1[3][2] = 1; */
-  /* g1[2][3] = 1;   */
-  /* g1[3][3] = 1; */
-
+  
   printGrid(g1);
 
   updateGrid(g1,g2);
